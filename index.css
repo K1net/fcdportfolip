@@ -1,0 +1,69 @@
+*{
+font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+
+
+}
+
+
+h1 , p {
+font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+
+
+
+
+}
+#Profile {
+	height: 250px;
+	width: 250px;
+
+	border-radius: 50%;
+}
+body {
+
+	background-color: hotpink;
+
+}
+
+footer{
+
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 10px;
+
+
+
+
+}
+.fa-globe, .fa-facebook, .fa-twitter, .fa-tiktok, .fa-youtube , .fa-instagram{
+
+
+	font-size: 25px;
+	color: white;
+	top, right, bottom, left
+	margin: 0 10px 0 10px;
+}
+
+
+.fa-globe:hover, .fa-facebook:hover, .fa-twitter:hover, .fa-tiktok:hover, .fa-youtube :hover, .fa-instagram:hover{
+
+
+	color: gray;
+}
+#landing {
+
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
